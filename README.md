@@ -42,4 +42,4 @@ Each request commits before a successful response; errors roll back its transact
 
 ## Deployment status
 
-Public HTTPS endpoint verification is pending. No public endpoint is advertised in this repository yet. EC2 setup and credentials are intentionally not included.
+Public HTTPS is available at [EC2 Swagger UI](https://54.180.195.249/docs). HTTP redirects to HTTPS. PostgreSQL and application/database ports 8000 and 5432 remain private; only the HTTPS API is publicly served. Credentials and private deployment details are intentionally not included.
